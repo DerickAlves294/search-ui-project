@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Search interface project developed for educational purposes.">
+    <meta name="author" content="Dérick Alves">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="shortcut icon" href="img/Search.ico" type="image/x-icon">
+    <title>Search | Web Interface Project</title>
+</head>
+
+<body>
+    <!-- Barra de Navegação Superior do Search -->
+    <header>
+        <nav>
+            <a href="#">E-mail</a>
+            <a href="#">Imagens</a>
+
+            <div class="relative icon-container img-icons">
+                <a href="#">
+                    <img class="search-apps" src="img/search-apps.svg" alt="">
+                    <span class="tooltip">Search Apps</span>
+                </a>
+            </div>
+
+            <div class="relative icon-container img-icons">
+                <a href="#">
+                    <img class="search-user" src="img/user.png" alt="">
+                    <span class="tooltip-user">
+                        <p><b>Conta do Search</b></p>
+                        <p>Exemple User</p>
+                        <address>exemple123@search.com</address>
+                    </span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Príncipal da Página, Barra de Pesquisa Search -->
+    <main>
+        <div class="container-wrapper">
+            <div class="container">
+                <!-- LOGO do Search, produzida com a tag <span> -->
+                <h1 class="logo">
+                    <span class="s1">S</span>
+                    <span class="s2">e</span>
+                    <span class="s3">a</span>
+                    <span class="s4">r</span>
+                    <span class="s5">c</span>
+                    <span class="s6">h</span>
+                </h1>
+                <!-- Input text e Ícones do Font Awesome -->
+                <div class="input-wrapper">
+                    <div class="relative icon-container upload-button" ><i class="fa-solid fa-plus"></i><span class="tooltip-wrapper">Fazer uploads de arquivos ou imagens</span></div>
+                    <input type="text" placeholder="Pesquise no Search ou digite um URL">
+                    <div class="relative icon-container"><i class="fa-solid fa-keyboard"></i><span class="tooltip-wrapper">Ferramenta de inserção de texto</span></div>
+                    <div class="relative icon-container"><i class="fa fa-microphone"></i><span class="tooltip-wrapper">Pesquisar por voz</span></div>
+                    <div class="relative icon-container"><i class="fa fa-camera-retro"></i><span class="tooltip-wrapper">Pesquisa por imagem</span></div>
+                    
+                    <!-- Botão do Modo IA, com animação -->
+                    <button class="search-button">
+                        <i class="fa-brands fa-sistrix"></i>
+                        <p>Modo IA</p>
+                    </button>
+                </div>
+                
+                <!-- Botões inferiores de pesquisa -->
+                <div class="button-wrapper">
+                    <button>Pesquisa Search</button>
+                    <button>Estou com sorte</button>
+                </div>
+
+                <!-- Página do Dia -->
+                <div class="news-of-the-day">
+                    <p>Conscientização sobre o Câncer: <a href="#">Informação e prevenção salvam vidas.</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer da Página, barra de navegação inferior -->
+    <footer>
+        <p class="country">Brasil</p>
+
+            <div class="navBar-footer">
+                <div class="nav-right">
+                    <a href="#">Sobre</a>
+                    <a href="#">Publicidade</a>
+                    <a href="#">Negócios</a>
+                    <a href="#">Como funciona a Pesquisa</a>
+                </div>
+                <div class="nav-left">
+                    <a href="#">Privacidade</a>
+                    <a href="#">Termos</a>
+                    <a href="#">Configurações</a>
+                </div>
+            </div>
+    </footer>
+</body>
+</html>
